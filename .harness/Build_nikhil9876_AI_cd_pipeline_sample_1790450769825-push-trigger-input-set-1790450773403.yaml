@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_nikhil9876_AI_cd_pipeline_sample_1790450769825-push-trigger-input-set
+  identifier: Build_nikhil9876_AI_cd_pipeline_sample_1790450769825pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_nikhil9876_AI_cd_pipeline_sample_1790450769825
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
